@@ -44,8 +44,9 @@
 
 	<!-- 상단 메뉴 -->
 	 <jsp:include page="top.jsp"></jsp:include>
+	 <div class="offcanvas-header"> <!-- top~body 사이 공백 -->　</div>
 	<!-- 상단 메뉴 -->
-	<div class="offcanvas-header"> <!-- 공백 -->　</div>
+
 	<div class="contain">
 		<div class="row">
 		<div class="col-2"><br> <!-- 테이블 왼쪽 공백 --> </div>
@@ -64,7 +65,7 @@
 				  </tbody>
 				</table>
 			
-			
+			 href="#"
 			<!-- 페이지 네비게이션 -->
 	
 			 <ul class="pagination pagination-sm">
@@ -101,8 +102,7 @@
 				      <a class="page-link" href="?pageNum=<%=startPage+pageBlock%>">&raquo;</a>
 				    </li><%
 				}}%>
-				 <li class="page-item">
-				      <a class="page-link" href="#">&raquo;</a>
+				 <li class="page-item">				      <a class="page-link" href="#">&raquo;</a>
 				 </li>
 			</ul>
 			</div>
